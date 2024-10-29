@@ -1,6 +1,5 @@
-# Sistema-Antiplagio-UTP
+## Sistema-Antiplagio-UTP
 
-# Sistema de Detección de Plagio
 
 Este proyecto implementa un sistema de detección de plagio en Java siguiendo el patrón de diseño Modelo-Vista-Controlador (MVC) y utilizando Java Swing para la interfaz gráfica. El sistema permite comparar un texto ingresado con textos de referencia almacenados en archivos XML para identificar posibles casos de plagio.
 
