@@ -37,3 +37,28 @@ public class SistemaAntiplagioTest {
         }
     }
 }
+
+
+/* MOdelo base de BASE DE DATOs
+create table XML_Almacenador (
+    id int,
+    text nvarchar,
+    url nvarchar
+
+)
+
+
+create table Comparador (
+    id int,
+    idxml int,
+    idTextoProbado int,
+    persona nvarchar,
+    respuesta
+)
+
+
+create table TextProbado (
+    id int,
+    texto nvarchar
+)
+*/
