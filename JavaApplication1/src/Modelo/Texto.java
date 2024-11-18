@@ -11,13 +11,44 @@ package Modelo;
  */
 public class Texto {
     
-    private String tiutlo;
+    private int id;
+    private String titulo;
     private String contenido;
 
-    public Texto(String tiutlo, String contenido) {
-        this.tiutlo = tiutlo;
+    public Texto(int id, String titulo, String contenido) {
+        this.id = id;
+        this.titulo = titulo;
         this.contenido = contenido;
     }
+
+    public Texto() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }    
+    
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getContenido() {
+        return contenido;
+    }
+
+    public void setContenido(String contenido) {
+        this.contenido = contenido;
+    }
+    
+    
     
     
 }

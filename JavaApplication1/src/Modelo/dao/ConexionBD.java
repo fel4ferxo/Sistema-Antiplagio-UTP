@@ -13,9 +13,9 @@ import java.sql.SQLException;
  */
 public class ConexionBD {
     
-    private static final String URL = "jdbc:postgresql://localhost:9856/verificador_plagio";
-    private static final String USER = "Administrator";
-    private static final String PASSWORD = "admin";
+    private static final String URL = "postgresql://ud1iwc5ri6j1uejafkzq:GDv71jeK7p0N8s2A1VjpZAD8Kt4Rjp@bhlniehgni4dxirxrje5-postgresql.services.clever-cloud.com:50013/bhlniehgni4dxirxrje5";
+    private static final String USER = "ud1iwc5ri6j1uejafkzq";
+    private static final String PASSWORD = "GDv71jeK7p0N8s2A1VjpZAD8Kt4Rjp";
     
     public static Connection getConnection() throws SQLException {
     
